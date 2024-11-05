@@ -12,7 +12,7 @@ public class DuckoController : MonoBehaviour
     int currentHealth;
 
     bool isInvincible;
-    float invinibleTimer;
+    float invincibleTimer;
 
     Rigidbody2D rigidbody2d;
     float horizontal;
@@ -36,6 +36,9 @@ public class DuckoController : MonoBehaviour
         {
             invincibleTimer -= Time.deltaTime;
             if(invincibleTimer < 0 )
+            {
+                isInvincible = false;
+            }
         }
 
     
@@ -50,6 +53,15 @@ public class DuckoController : MonoBehaviour
         }
     public void ChangeHealth(int amount)
     {
+        if(amount < 0)
+        {
+            if(isInvincible)
+            {
+                return;
+            }
+            isInvincible = true;
+            invincibleTimer = timeInvincible;
+        }
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         Debug.Log(currentHealth + "/" + maxHealth);
     }
