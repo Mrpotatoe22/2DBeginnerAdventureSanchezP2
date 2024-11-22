@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HealthCollecttables : MonoBehaviour
 {
+    public AudioClip collectedClip;
     void OnTriggerEnter2D(Collider2D other)
     {
         DuckoController controller = other.GetComponent<DuckoController>();
@@ -13,6 +14,8 @@ public class HealthCollecttables : MonoBehaviour
             {
                 controller.ChangeHealth(1);
                 Destroy(gameObject);
+
+                controller.PlaySound(collectedClip);
             }
             
         }

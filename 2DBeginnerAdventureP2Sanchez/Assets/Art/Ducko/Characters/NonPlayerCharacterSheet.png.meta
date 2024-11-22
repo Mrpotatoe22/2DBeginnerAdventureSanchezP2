@@ -3,7 +3,7 @@ guid: 1de25eb2ec0622142aec28bcc6a322a1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -106,89 +106,406 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MarthaSheet_0
+      name: NonPlayerCharacterSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19248e8d29ae744d99e2fdfb84b8099
+      internalID: 984193934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonPlayerCharacterSheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e362f9f967ba8468e1d2644729d629
+      internalID: 1779645188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonPlayerCharacterSheet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000212940dcc06941802576596cdb336
+      internalID: -1563427788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonPlayerCharacterSheet_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5030db9c5044c54fa4a7e5f6ba8e447
+      internalID: -1428576512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonPlayerCharacterSheet_4
       rect:
         serializedVersion: 2
         x: 0
         y: 256
-        width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeca68457873ff7438f386d0ae4a98b9
-      internalID: -333191600
+      spriteID: b65467d8fc6f16f419515d113ee447a0
+      internalID: 940294430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MarthaSheet_1
+      name: NonPlayerCharacterSheet_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4092daea87a3848458614eb30fe17c1d
+      internalID: 1288712437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonPlayerCharacterSheet_6
       rect:
         serializedVersion: 2
         x: 256
         y: 256
-        width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 473e3cd456a83924c9039906d8f72386
-      internalID: -300337328
+      spriteID: fae5dc5826104984ea5f011e68ce7192
+      internalID: -241284415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MarthaSheet_2
+      name: NonPlayerCharacterSheet_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327c09db6dbba8349ae0970597fba634
+      internalID: 1851404445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonPlayerCharacterSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224bb724816b7ab4da3007026436a716
+      internalID: 1788196717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonPlayerCharacterSheet_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303b531147c6e7146a0f8fe76df75ffe
+      internalID: 132736267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonPlayerCharacterSheet_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02215b1efa1d4746932efa0058c3999
+      internalID: -801079149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonPlayerCharacterSheet_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d25a6db37bff646ab724a889781bfd
+      internalID: -1632210268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonPlayerCharacterSheet_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b4b1954adc90a045b71537a142fbd88
-      internalID: -1345050003
+      spriteID: fa191e530cbc00a4e9b7669147da16ce
+      internalID: -2147120271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MarthaSheet_3
+      name: NonPlayerCharacterSheet_13
       rect:
         serializedVersion: 2
-        x: 256
+        x: 128
         y: 0
-        width: 256
-        height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4726d8928574fa346a8ffe9ce4661f0d
-      internalID: 979434604
+      spriteID: 041887d3183a05f4cb30a91c9d792102
+      internalID: 247690596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonPlayerCharacterSheet_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42362c1df985cb468c56dcb92a3d257
+      internalID: 290028085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonPlayerCharacterSheet_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832d6e1b2863af3479d9f83aa10b9093
+      internalID: -1769964581
       vertices: []
       indices: 
       edges: []
@@ -204,10 +521,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MarthaSheet_0: -333191600
-      MarthaSheet_1: -300337328
-      MarthaSheet_2: -1345050003
-      MarthaSheet_3: 979434604
+      NonPlayerCharacterSheet_0: 984193934
+      NonPlayerCharacterSheet_1: 1779645188
+      NonPlayerCharacterSheet_10: -801079149
+      NonPlayerCharacterSheet_11: -1632210268
+      NonPlayerCharacterSheet_12: -2147120271
+      NonPlayerCharacterSheet_13: 247690596
+      NonPlayerCharacterSheet_14: 290028085
+      NonPlayerCharacterSheet_15: -1769964581
+      NonPlayerCharacterSheet_2: -1563427788
+      NonPlayerCharacterSheet_3: -1428576512
+      NonPlayerCharacterSheet_4: 940294430
+      NonPlayerCharacterSheet_5: 1288712437
+      NonPlayerCharacterSheet_6: -241284415
+      NonPlayerCharacterSheet_7: 1851404445
+      NonPlayerCharacterSheet_8: 1788196717
+      NonPlayerCharacterSheet_9: 132736267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
